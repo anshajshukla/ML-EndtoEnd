@@ -10,3 +10,9 @@ Setting up dcv Pipeline (without params)
 6 --> dvc init then do "dvc repro" to test the pipeline automation. (check dvc dag)
 7 --> git add, comit, push
 
+
+Setting up dcv pipeline (with params)
+8 --> add params.yaml file
+9 --> Add the params setup (mentioned bhow)
+10 --> Do "dvc repro" again to test the pipeline along with the params
+11 --> Now git add, comit push
