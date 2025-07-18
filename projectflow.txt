@@ -16,3 +16,13 @@ Setting up dcv pipeline (with params)
 9 --> Add the params setup (mentioned bhow)
 10 --> Do "dvc repro" again to test the pipeline along with the params
 11 --> Now git add, comit push
+
+
+Experiments with DVC:
+12 -->pip install dvclive
+13 --> Add the dvclive block (entioned belcv)
+14 --> Do "dvc exp run", it will create a new dvc.yaml(if already not there) arui dvclive directory (each run will be considered as an experiment)
+15 --> do "dvc exp show" on terminal to see the experiments use extensions on VSCode (install dvc extensions)
+16 --> Do "dvc exp remove {exp-name}" to remove exp (optional) | "dvc exp apply {exp-name}" to reproduce prev exp
+17 --> Change params, rerun code (produce new experiments)
+18 --> git add, comit, push
